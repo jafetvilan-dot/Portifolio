@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Portfólio | Desenvolvedor Web Full Stack</title>
+  <title>Portfólio | Desenvolvedor Web</title>
   <meta name="description" content="Portfólio de Desenvolvedor Web Full Stack especializado em Front-End moderno e Back-End com PHP e Java." />
 
   <!-- Google Fonts -->
@@ -12,11 +12,13 @@
   <style>
     :root {
       --bg: #1c1445;
-      --card: #d4e9f9;
+      --card: #305764;
       --text: #020617;
       --muted: #334155;
       --primary: #0369a1;
       --accent: #15803d;
+      --third: #87bfd7;
+      --txt2: #eff0f4;
     }
 
     * {
@@ -25,12 +27,33 @@
       box-sizing: border-box;
       font-family: 'Inter', sans-serif;
     }
+body {
+  background: linear-gradient(135deg, #0f2027, #203a43, #0c5d81);
+  
+  color: #ffffff;
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  }
+ /*
+ body {
+  background: linear-gradient(135deg, #1e3c72, #2a5298, #3e0a76, #500454);
+  color: #ffffff;
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}*/
 
-    body {
-      background: linear-gradient(180deg, #cbd5e1, var(--bg));
-      color: var(--text);
-      line-height: 1.6;
+    body, html {
+      scroll-behavior: smooth;
     }
+    /* #home{
+      background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZVtcSNVVgme8OB80OpMdZBMDj0Y0xLpIJ_w&s');
+      background-size: cover;
+      background-position: center;
+    } */
 
     a {
       color: var(--primary);
@@ -64,7 +87,7 @@
       margin: 0.5rem;
       padding: 0.8rem 1.5rem;
       border-radius: 8px;
-      background: var(--primary);
+      background: var(--third);
       color: #020617;
       font-weight: 600;
       transition: transform 0.2s, opacity 0.2s;
@@ -111,7 +134,7 @@
     .tag {
       display: inline-block;
       background: rgba(56,189,248,0.1);
-      color: var(--primary);
+      color: var(--txt2);
       padding: 0.3rem 0.6rem;
       border-radius: 6px;
       font-size: 0.85rem;
@@ -138,7 +161,8 @@
   <!-- HERO -->
   <!-- NAVBAR -->
         <nav style="position:fixed;top:0;width:100%;background:#e2e8f0cc;backdrop-filter:blur(8px);padding:1rem 2rem;display:flex;justify-content:space-between;align-items:center;z-index:1000;">
-    <strong style="font-size:1.2rem;color:#38bdf8;">Jafete Vilancuo</strong>
+    <strong style="font-size:1.2rem;color:#38bdf8;">jafetvilan</strong>
+    
     <div>
       <a href="#home" style="margin:0 0.8rem;">Home</a>
       <a href="#sobre" style="margin:0 0.8rem;">Sobre</a>
@@ -157,15 +181,15 @@
         Desenvolvimento de aplicações web modernas, escaláveis e seguras,
         atuando no Front-End e Back-End com foco em qualidade e performance.
       </p>
-      <div class="btns">
-        <a href="cv.pdf">Baixar CV</a>
-        <a href="#contato" class="secondary">Contacto</a>
-      </div>
       <div>
         <a href="https://github.com/jafetvilan-dot" target="_blank" style="margin:0 0.5rem;font-size:1.5rem;"><img src="icons8-github-50.png" alt="github icon"></a>
          
           <a href="mailto:jafetvilan@gmail.com" target="_blank" style="margin:0 0.5rem;font-size:1.5rem;"><img src="icons8-mail-50.png" alt="email"></a>
-          
+          <a href="https://wa.me/+258844476309" target="_blank"><img src="icons8-whatsapp-logo-50.png" alt="whatsapp icon"></a>
+      </div>
+      <br>
+      <div class="btns">
+        <a href="cv.pdf">Baixar CV</a>
       </div>
     </div>
   </header>
@@ -179,12 +203,11 @@
         <p>
             Sou <strong>Jafete Vilanculo</strong>,ou estudante de Engenharia em Tecnologias e Sistemas de Informação, apaixonado por desenvolvimento web e sempre em busca de novas oportunidades de aprendizado e crescimento profissional. Estou em transição de carreira, trazendo comigo uma formação sólida em Matemática, o que me proporciona uma base analítica forte e capacidade de resolver problemas de forma eficiente. <br>
 
-            Tenho experiência com <strong>HTML, CSS e JavaScript</strong>, além de conhecimentos em <strong>Java e PHP</strong>. Sou uma pessoa empenhada, curiosa e que aprende rapidamente, sempre pronta para enfrentar desafios e contribuir de forma significativa em projetos e equipes. Procuro oportunidades de estágio ou trabalho onde possa aplicar minhas habilidades e continuar evoluindo na área de tecnologia.
+            Tenho experiência com <strong>HTML, CSS e JavaScript</strong>, além de conhecimentos em <strong>Java e PHP</strong>. Sou uma pessoa empenhada, curiosa e que aprende rapidamente, sempre pronto para enfrentar desafios e contribuir de forma significativa em projetos e equipes. Procuro oportunidades de estágio ou trabalho onde possa aplicar minhas habilidades e continuar evoluindo na área de tecnologia.
         </p>
         <p>
           Tenho foco em <strong>qualidade de código</strong>, <strong>boas práticas</strong>,
-          <strong>segurança</strong> e <strong>performance</strong>, atuando com PHP,
-          Java e tecnologias modernas de front-end.
+          <strong>segurança</strong> e <strong>performance</strong>
         </p>
       </div>
     </div>
